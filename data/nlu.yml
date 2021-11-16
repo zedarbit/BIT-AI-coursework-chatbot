@@ -1,0 +1,102 @@
+version: "2.0"
+
+nlu:
+- intent: greeting
+  examples: |
+     - 你好
+     - 早上好
+     - 下午好
+     - 晚上好
+     - 你好吗
+     - 哈罗
+     - 很高兴见到你
+
+- intent: goodbye
+  examples: |
+     - 再见
+     - 下次再聊
+     - 不找你说话了
+     - 不说了
+     - 拜拜
+
+- intent: affirm
+  examples: |
+     - 雀食
+     - 是的
+     - 你说的对
+     - 很难不赞同
+     - 听起来很棒
+     - 真不错
+#    - yes
+#    - y
+#    - indeed
+#    - of course
+#    - that sounds good
+#    - correct
+
+- intent: deny
+  examples: |
+     - 不行
+     - 你瞎说
+     - 没门
+     - 我不这样认为
+     - 你说的不对
+
+- intent: bot_name
+  examples: |
+     - 你是谁
+     - 你叫什么名字
+     - 你的名字是什么
+     - 你叫啥
+     - 能告诉我你的名字吗
+
+- intent: thankyou
+  examples: |
+     - 谢谢
+     - 非常感谢
+     - 哦谢谢你
+     - 哇感谢
+     - 超级感谢
+     - 超级爱你
+     - 太棒了
+     - 太强了
+     - 给力
+     - 谢谢你的帮忙
+     - 谢谢你的推荐
+     - 感谢
+     - 你真棒
+     - 谢谢啦
+     - 你真棒
+
+- intent: bit_locate
+  examples: |
+     - 北京理工大学在哪里
+     - 你能告诉我北理工在哪里吗
+
+- intent: bit_headm
+  examples: |
+     - 你能告诉我北理工第一任校长是谁吗？
+
+- intent: whatis_bit
+  examples: |
+     - 你能告诉我北京理工大学是什么吗
+     - 你知道北理工吗
+     - 你知道北京理工大学吗
+     - 北理工在哪里啊
+     - 北理工是什么东西
+     - 北理工是啥
+
+- intent: whatin_bit
+  examples: |
+     - 北理工有什么好玩的吗
+     - 北理工里有啥
+     - 百丽宫里有什么
+     - 你能告诉我北理工里有啥好玩的吗
+     - 北理工里有啥好玩的
+- intent: bot_challenge
+  examples: |
+     - 你知道怎么在北理工找对象吗
+     - 北理工有啥好吃的
+     - 你能换个表情吗
+     - 你知道我是谁吗
+     - 如何在百丽宫找对象

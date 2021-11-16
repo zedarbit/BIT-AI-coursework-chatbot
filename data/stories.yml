@@ -1,0 +1,48 @@
+version: "2.0"
+
+stories:
+
+- story: ask_locate
+  steps:
+  - intent: greeting
+  - action: utter_greeting
+  - intent: bit_locate
+  - action: utter_bit_locate
+  - intent: affirm
+  - action: utter_affirm
+
+- story: ask_headmaster
+  steps:
+  - intent: bit_headm
+  - action: utter_bit_headm
+  - intent: thankyou
+  - action: utter_thankyou
+
+
+- story: ask_name
+  steps:
+  - intent: bot_name
+  - action: utter_bot_name
+  - intent: affirm
+  - action: utter_affirm
+
+- story: ask_whatis
+  steps:
+  - intent: whatis_bit
+  - action: utter_whatis_bit
+
+- story: ask_whatin
+  steps:
+  - intent: whatin_bit
+  - action: utter_whatin_bit
+
+
+- story: bot_challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+
+- story: say_bye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye

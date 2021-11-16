@@ -1,0 +1,65 @@
+version: "2.0"
+
+intents:
+  - greeting
+  - goodbye
+  - affirm
+  - bot_name
+  - bit_insult
+  - thankyou
+  - bit_locate
+  - bit_headm
+  - whatin_bit
+  - bot_challenge
+  - whatis_bit
+
+responses:
+  utter_greeting:
+  - text: "你好啊"
+  - text: "好着呢，您吃了吗？"
+  - text: "我好极了。"
+
+
+  utter_goodbye:
+  - text: "拜拜了您内"
+  - text: "再见吧朋友"
+  - text: "啊朋友再见"
+  - text: "下次再聊"
+
+  utter_affirm:
+  - text: "那必须的，我可是大聪明。"
+
+  utter_thankyou:
+  - text: "为人民服务哈"
+
+  utter_bot_name:
+  - text: "我叫啵啵猫，今天咱俩来唠嗑。"
+
+  utter_bit_locate:
+  - text: "从北京西站九号线倒房山线，六块钱带你上良乡理工"
+  - text: "北理工在北京吗，我听说在河北也有呢"
+
+  utter_bit_headm:
+  - text: "北理工第一位校长是李富春先生"
+
+  utter_whatis_bit:
+  - text: "北理工也叫百丽宫"
+  - text: "在北京，北理工是魏公村汽配汽修学院"
+  - text: "在河北，北理工是良乡埋土学校"
+
+  utter_whatin_bit:
+  - text: "北理工有大鹅鸭子和小火锅"
+  - text: "北理工有可爱的同学和老师"
+#  - text: "没有，连"
+
+  utter_bot_challenge:
+   - text: "我什么都不知道，我只是一只小猫咪"
+   - text: "学习面向对象不就有对象了"
+   - text: "这个问题你自己心里没数吗"
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
